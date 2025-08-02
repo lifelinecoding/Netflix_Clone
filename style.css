@@ -371,7 +371,7 @@ a {
   height: 350px;
   width: 80%;
   overflow-x: scroll;
-  align-items: end;
+  align-items:end;
   /* scrollbar-base-color: inherit; */
   scrollbar-width: none;
   margin: auto;
@@ -395,6 +395,11 @@ a {
   height: 300px;
   width: 150px;
   border-radius: 30px;
+}
+
+.movies img:hover{
+  transform: translate(1.2);
+  cursor: pointer;
 }
 
 @media only screen and (max-height: 700px) {
